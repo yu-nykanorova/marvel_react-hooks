@@ -69,6 +69,10 @@ main {
     animation: pulse 1.5s ease-in-out .5s infinite
 }
 
+.is-active {
+    color: $main-color;
+}
+
 @keyframes pulse {
     0% {
         opacity: 1
